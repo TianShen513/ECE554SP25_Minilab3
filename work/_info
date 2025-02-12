@@ -1,0 +1,185 @@
+m255
+K4
+z2
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/23.1std
+vdriver
+2I:/Desktop/minilab3/driver.sv
+Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1739319246
+!i10b 1
+!s100 HIo@g3XI=T5E:X0l^5TXl0
+ILZW22JCWdU98GQUQY_hA]1
+S1
+Z1 dI:/Desktop/minilab3
+w1739319239
+8I:/Desktop/minilab3/driver.sv
+FI:/Desktop/minilab3/driver.sv
+!i122 28
+L0 20 72
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1739319245.000000
+!s107 I:/Desktop/minilab3/driver.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/Desktop/minilab3/driver.sv|
+!i113 0
+Z4 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vlab1_spart
+2I:/Desktop/minilab3/lab1_spart.v
+Z6 !s110 1739319191
+!i10b 1
+!s100 SNc:7;L2N=nLz[`L;5hZ>2
+I[UBc8eEDzL3cefOI@=W1A2
+R1
+w1739316312
+8I:/Desktop/minilab3/lab1_spart.v
+FI:/Desktop/minilab3/lab1_spart.v
+!i122 21
+L0 6 134
+R2
+R3
+r1
+!s85 0
+31
+!s108 1739319190.000000
+!s107 I:/Desktop/minilab3/lab1_spart.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/Desktop/minilab3/lab1_spart.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vminilab3
+2I:/Desktop/minilab3/minilab3.v
+R6
+!i10b 1
+!s100 JXP>NBn>X@n=B1c8I>T480
+IBK@o@OA0O;hVAHII:Cd[Q3
+R1
+w1739312101
+8I:/Desktop/minilab3/minilab3.v
+FI:/Desktop/minilab3/minilab3.v
+!i122 22
+L0 6 69
+R2
+R3
+r1
+!s85 0
+31
+Z8 !s108 1739319191.000000
+!s107 I:/Desktop/minilab3/minilab3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/Desktop/minilab3/minilab3.v|
+!i113 0
+R7
+R5
+vspart
+2I:/Desktop/minilab3/spart.sv
+R0
+Z9 !s110 1739319192
+!i10b 1
+!s100 Znz5jD`[iTTMXP>`ZoOmB0
+I3X@:1IfQ1dhSXJiQG0kOV2
+S1
+R1
+w1739319186
+8I:/Desktop/minilab3/spart.sv
+FI:/Desktop/minilab3/spart.sv
+!i122 23
+L0 20 54
+R2
+R3
+r1
+!s85 0
+31
+R8
+!s107 I:/Desktop/minilab3/spart.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/Desktop/minilab3/spart.sv|
+!i113 0
+R4
+R5
+vUART
+2I:/Desktop/minilab3/UART.sv
+R0
+R9
+!i10b 1
+!s100 :0A73blnN`?[R41D[18ek2
+I5MLh0L:A`[0L8<8Q4OMFF0
+S1
+R1
+w1739319110
+8I:/Desktop/minilab3/UART.sv
+FI:/Desktop/minilab3/UART.sv
+!i122 24
+L0 1 25
+R2
+R3
+r1
+!s85 0
+31
+Z10 !s108 1739319192.000000
+!s107 I:/Desktop/minilab3/UART.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/Desktop/minilab3/UART.sv|
+!i113 0
+R4
+R5
+n@u@a@r@t
+vUART_rx
+2I:/Desktop/minilab3/UART_rx.sv
+R0
+Z11 !s110 1739319193
+!i10b 1
+!s100 n2a5A76MQA;UU]?MD=WJJ3
+I4AcKT4;QifCnjk9`HE6_A0
+S1
+R1
+w1739316276
+8I:/Desktop/minilab3/UART_rx.sv
+FI:/Desktop/minilab3/UART_rx.sv
+!i122 25
+L0 1 100
+R2
+R3
+r1
+!s85 0
+31
+R10
+!s107 I:/Desktop/minilab3/UART_rx.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/Desktop/minilab3/UART_rx.sv|
+!i113 0
+R4
+R5
+n@u@a@r@t_rx
+vUART_tx
+2I:/Desktop/minilab3/UART_tx.sv
+R0
+R11
+!i10b 1
+!s100 `>lnDS4mNkZZ]<n]g26ez3
+IJ9bG_UjQME`_`khA[<TM;0
+S1
+R1
+w1739316223
+8I:/Desktop/minilab3/UART_tx.sv
+FI:/Desktop/minilab3/UART_tx.sv
+!i122 26
+L0 1 89
+R2
+R3
+r1
+!s85 0
+31
+!s108 1739319193.000000
+!s107 I:/Desktop/minilab3/UART_tx.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/Desktop/minilab3/UART_tx.sv|
+!i113 0
+R4
+R5
+n@u@a@r@t_tx
