@@ -1,6 +1,20 @@
 m255
 K4
 z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s12c _opt
+R1
 !s11f vlog 2023.3 2023.07, Jul 17 2023
 13
 !s112 1.1
@@ -8,106 +22,107 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/intelFPGA_lite/23.1std
+Z2 dC:/intelFPGA_lite/23.1std
+T_opt
+!s110 1739486434
+VO995EO1_VIePengZDof8l1
+Z3 04 13 4 work lab1_spart_tb fast 0
+=1-4cd71793ba4f-67ae74e1-173-228c
+R1
+Z4 !s12b OEM100
+Z5 !s124 OEM10U7 
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2023.3;77
+R2
+T_opt1
+!s110 1739489691
+Vz9`_X@Dm_zaPJ[P6Dh19^1
+R3
+=1-4cd71793ba4f-67ae819a-21a-5200
+R1
+R4
+R5
+R6
+R7
+n@_opt1
+R8
 vdriver
 2I:/win/desktop/ECE554/ECE554SP25_Minilab3/driver.sv
-Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1739484252
+Z9 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z10 !s110 1739489671
 !i10b 1
-!s100 ]j2OkiW7@<Dcncak7dI4C3
-I>>V>cM^XdX6jaU1W:m1091
+!s100 TB:Uc;QT>A2RgzWS1LPb_3
+IJST1Y2HUaOzHWX<B>9j8b0
 S1
-Z1 dI:/win/desktop/ECE554/ECE554SP25_Minilab3
-w1739482562
+Z11 dI:/win/desktop/ECE554/ECE554SP25_Minilab3
+w1739488864
 8I:/win/desktop/ECE554/ECE554SP25_Minilab3/driver.sv
 FI:/win/desktop/ECE554/ECE554SP25_Minilab3/driver.sv
-!i122 42
-L0 20 76
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 OL;L;2023.3;77
+!i122 167
+L0 20 79
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2023.3;77
 r1
 !s85 0
 31
-!s108 1739484251.000000
+Z14 !s108 1739489670.000000
 !s107 I:/win/desktop/ECE554/ECE554SP25_Minilab3/driver.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/win/desktop/ECE554/ECE554SP25_Minilab3/driver.sv|
 !i113 0
-Z4 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z5 tCvgOpt 0
+Z15 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
 vlab1_spart
 2I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv
-R0
-!s110 1739484462
+R9
+R10
 !i10b 1
-!s100 bnUWWaTe5`H;LmJ9SIYBL0
-IEeg4l[Y`?3T@mY=i[FPz]2
+!s100 H2;N5?YcPonzH38K^=[gz1
+IjcG;UgPV@E2Eek2i0YWSJ2
 S1
-R1
-w1739484430
+R11
+w1739486417
 8I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv
 FI:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv
-!i122 44
+!i122 168
 L0 6 134
-R2
-R3
+R12
+R13
 r1
 !s85 0
 31
-!s108 1739484462.000000
+Z16 !s108 1739489671.000000
 !s107 I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv|
 !i113 0
-R4
-R5
+R15
+R7
 vlab1_spart_tb
-2I:\win\desktop\ECE554\ECE554SP25_Minilab3\lab1_spart_tb.sv
-R0
-!s110 1739484379
+2I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv
+R9
+Z17 !s110 1739489670
 !i10b 1
-!s100 8P6=2Z7zYaF3W:694==c^1
-I2aJ9M=]^kL=RP9OBV8gQR3
+!s100 >4AIYN769K1h?5g0o4b`d1
+I1NSj3jleEV;U>[C8EKDVH2
 S1
-R1
-w1739484348
-8I:\win\desktop\ECE554\ECE554SP25_Minilab3\lab1_spart_tb.sv
-FI:\win\desktop\ECE554\ECE554SP25_Minilab3\lab1_spart_tb.sv
-!i122 43
-L0 2 92
-R2
-R3
+R11
+w1739489083
+8I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv
+FI:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv
+!i122 166
+L0 2 91
+R12
+R13
 r1
 !s85 0
 31
-!s108 1739484379.000000
-!s107 I:\win\desktop\ECE554\ECE554SP25_Minilab3\lab1_spart_tb.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:\win\desktop\ECE554\ECE554SP25_Minilab3\lab1_spart_tb.sv|
+R14
+!s107 I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv|
 !i113 0
-R4
-R5
-vMinilab3
-2I:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v
-Z6 !s110 1739484250
-!i10b 1
-!s100 Y`oGe@j8_bnJ[0BJkdZ8m3
-ID0aW_3:g?SVoHEDGL5KEn2
-R1
-w1739482371
-8I:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v
-FI:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v
-!i122 39
-L0 6 45
-R2
-R3
-r1
-!s85 0
-31
-Z7 !s108 1739484250.000000
-!s107 I:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v|
-!i113 0
-Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R5
-n@minilab3
+R15
+R7
 vminilab3
 2I:/Desktop/minilab3/minilab3.v
 !s110 1739319191
@@ -120,8 +135,8 @@ w1739312101
 FI:/Desktop/minilab3/minilab3.v
 !i122 22
 L0 6 69
-R2
-R3
+R12
+R13
 r1
 !s85 0
 31
@@ -129,108 +144,132 @@ r1
 !s107 I:/Desktop/minilab3/minilab3.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/Desktop/minilab3/minilab3.v|
 !i113 0
-R8
-R5
-vspart
-2I:/win/desktop/ECE554/ECE554SP25_Minilab3/spart.sv
-R0
-R6
+Z18 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+vMinilab3
+2I:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v
+R17
 !i10b 1
-!s100 Za2Q7PKTmT0Bd1=@Y6zF90
-I8jMPU91X<jjOgbn_N[^Ko1
-S1
-R1
-w1739483943
-8I:/win/desktop/ECE554/ECE554SP25_Minilab3/spart.sv
-FI:/win/desktop/ECE554/ECE554SP25_Minilab3/spart.sv
-!i122 38
-L0 20 54
-R2
-R3
+!s100 Y`oGe@j8_bnJ[0BJkdZ8m3
+ID0aW_3:g?SVoHEDGL5KEn2
+R11
+w1739482371
+8I:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v
+FI:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v
+!i122 165
+L0 6 45
+R12
+R13
 r1
 !s85 0
 31
-R7
-!s107 I:/win/desktop/ECE554/ECE554SP25_Minilab3/spart.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/win/desktop/ECE554/ECE554SP25_Minilab3/spart.sv|
+Z19 !s108 1739489669.000000
+!s107 I:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v|
 !i113 0
-R4
-R5
+R18
+R7
+n@minilab3
+vspart
+2I:\win\desktop\ECE554\ECE554SP25_Minilab3\spart.sv
+R9
+R10
+!i10b 1
+!s100 9Tk5TYcAzGz3fjd8RC@OL1
+IS8z8ocP2`>H:G[AX`biU?0
+S1
+R11
+w1739489633
+8I:\win\desktop\ECE554\ECE554SP25_Minilab3\spart.sv
+FI:\win\desktop\ECE554\ECE554SP25_Minilab3\spart.sv
+!i122 169
+L0 20 65
+R12
+R13
+r1
+!s85 0
+31
+R16
+!s107 I:\win\desktop\ECE554\ECE554SP25_Minilab3\spart.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:\win\desktop\ECE554\ECE554SP25_Minilab3\spart.sv|
+!i113 0
+R15
+R7
 vUART
 2I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART.sv
-R0
-Z9 !s110 1739484249
+R9
+Z20 !s110 1739489669
 !i10b 1
 !s100 :0A73blnN`?[R41D[18ek2
 ISeQ[]jkgzd3?];<om1^=Y2
 S1
-R1
-Z10 w1739482369
+R11
+Z21 w1739482369
 8I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART.sv
 FI:/win/desktop/ECE554/ECE554SP25_Minilab3/UART.sv
-!i122 37
+!i122 164
 L0 1 25
-R2
-R3
+R12
+R13
 r1
 !s85 0
 31
-Z11 !s108 1739484249.000000
+R19
 !s107 I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART.sv|
 !i113 0
-R4
-R5
+R15
+R7
 n@u@a@r@t
 vUART_rx
 2I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv
-R0
 R9
+R20
 !i10b 1
 !s100 n2a5A76MQA;UU]?MD=WJJ3
 I;`Ni@<ADlI4fk[HzmeZ3o1
 S1
-R1
-R10
+R11
+R21
 8I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv
 FI:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv
-!i122 36
+!i122 163
 L0 1 100
-R2
-R3
+R12
+R13
 r1
 !s85 0
 31
-R11
+R19
 !s107 I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv|
 !i113 0
-R4
-R5
+R15
+R7
 n@u@a@r@t_rx
 vUART_tx
 2I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv
-R0
 R9
+!s110 1739489668
 !i10b 1
 !s100 `>lnDS4mNkZZ]<n]g26ez3
 IK0maan7T5CmV8aGj888>J0
 S1
-R1
-R10
+R11
+R21
 8I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv
 FI:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv
-!i122 35
+!i122 162
 L0 1 89
-R2
-R3
+R12
+R13
 r1
 !s85 0
 31
-!s108 1739484248.000000
+!s108 1739489668.000000
 !s107 I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv|
 !i113 0
-R4
-R5
+R15
+R7
 n@u@a@r@t_tx

@@ -6,10 +6,10 @@
 module lab1_spart(
 
  //////////// CLOCK //////////
-    input               CLOCK_50,
-    input               CLOCK2_50,
-    input               CLOCK3_50,
-    input               CLOCK4_50,
+    input        logic       CLOCK_50,
+    input         logic      CLOCK2_50,
+    input         logic      CLOCK3_50,
+    input         logic      CLOCK4_50,
 
  //////////// SEG7 //////////
     output reg   [6:0]  HEX0,
@@ -20,18 +20,18 @@ module lab1_spart(
     output reg   [6:0]  HEX5,
 
 //////////// KEY //////////
-    input        [3:0]  KEY,
+    input    logic    [3:0]  KEY,
 
  //////////// LED //////////
-    output		   [9:0]		LEDR,
+    output		logic   [9:0]		LEDR,
 
  //////////// SW //////////
-    input        [9:0]  SW,
+    input    logic    [9:0]  SW,
 
  //////////// GPIO_0, GPIO_0 connect to GPIO Default //////////
-    inout     logic  [35:0]  GPIO
+    input  logic    [35:0]  GPIO
 );
-
+   
 wire txd;
 wire rxd;
 wire iocs;
@@ -51,7 +51,7 @@ wire rst = ~KEY[0];
 assign LEDR = {~rxd,~txd,7'b0,rst};
 
 // GPIO[3] as TX output, GPIO[5] as RX input
-assign GPIO[3] = txd;
+//assign GPIO[3] = txd;
 assign rxd = GPIO[5];
 
 // slide switch [9:8] as baudrate config

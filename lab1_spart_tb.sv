@@ -7,7 +7,7 @@ module lab1_spart_tb;
     logic [9:0]  SW;
     logic [35:0] GPIO;
 
-    logic [7:0] tx_data;  // Changed from 'byte' (reserved keyword)
+    reg [7:0] tx_data;  // Changed from 'byte' (reserved keyword)
 
     // Instantiate DUT - changed module name (should match your actual design module)
     lab1_spart iDut(
@@ -61,22 +61,21 @@ module lab1_spart_tb;
     initial begin
         // Initialize inputs
         SW = 10'b0;               // Fixed syntax (was 0')
-        GPIO = 36'b0;
         SW[9:8] = 2'b11;
         clk = 1'b0;
         KEY = 4'b0;               // Fixed syntax (was 0')
-        KEY[0] = 1;               // rst_n
+        KEY[0] = 0;               // rst_n
         GPIO[5] = 1'b1;           // Idle state
 
         // Reset sequence
         @(negedge clk);
         @(negedge clk);
-        KEY[0] = 0;               // Assert reset
+        KEY[0] = 1;               // Assert reset
         @(negedge clk);
         @(negedge clk);
-        KEY[0] = 1;               // Release reset
+        KEY[0] = 0;               // Release reset
         @(negedge clk);
-         KEY[0] = 0;   
+        KEY[0] = 1;   
         // Transmit test data
         tx_data = 8'b1111_0000;   // Changed variable name
         transmit_byte(tx_data);

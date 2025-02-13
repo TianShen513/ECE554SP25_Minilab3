@@ -1,23 +1,23 @@
-I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv
+I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module lab1_spart
+
+Top level modules:
+	lab1_spart
+
+} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module UART_rx
 
 Top level modules:
 	UART_rx
 
-} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv {1 {vlog -work work -vopt -sv -stats=none {I:\win\desktop\ECE554\ECE554SP25_Minilab3\lab1_spart_tb.sv}
+} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module lab1_spart_tb
 
 Top level modules:
 	lab1_spart_tb
-
-} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/spart.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/spart.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module spart
-
-Top level modules:
-	spart
 
 } {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023

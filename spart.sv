@@ -45,6 +45,10 @@ module spart(
 
     logic finish;
 
+    logic rst_n;
+
+    assign rst_n = ~rst;
+
     assign baud_goal = br_cfg == 2'b00 ? 12'd5208 :
                                   2'b01 ?  12'd2604:
                                   2'b10 ?  12'd1302 :
@@ -56,13 +60,20 @@ module spart(
     assign trmt = tbr;
     assign clr_rx_rdy = ioaddr == 2'b00;
 
-    UART uart_bottom( .clk(clk), .rst_n(~rst), .RX(rxd), .TX(txd), 
+    UART uart_bottom( .clk(clk), .rst_n(rst_n), .RX(rxd), .TX(txd), 
     .rx_rdy(rx_rdy) , .clr_rx_rdy(clr_rx_rdy), .rx_data(rx_data), 
     .trmt(trmt), .tx_data(tx_data), .tx_done(tx_done), .baud_goal(baud_goal));
 
     // from the processor to the spart
-    assign tx_data = ~iorw ? databus_reg : 8'b0000_0000;
-    assign databus_reg = (iorw & rda) ? rx_data : 8'b0000_0000; 
+    assign tx_data = (ioaddr == 2'b00)? databus_reg : 8'b0000_0000;
+
+   always_ff @(posedge clk or negedge rst_n) begin
+    if (!rst_n) begin
+        databus_reg <= 8'b0000_0000; // Reset value
+    end else if ((iorw & rda))begin
+        databus_reg <=  rx_data;
+    end
+    end
     
     assign databus = iocs ? databus_reg : 8'bzzzz_zzzz;
 

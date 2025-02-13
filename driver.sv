@@ -63,6 +63,8 @@ module driver(
 			databus_driver <= databus;
 
 	end
+
+	assign iocs = 1'b1;
 // TODO: iorw set to 1 when driver receives data, vice versa
        always_comb begin
        		//default state
@@ -85,6 +87,7 @@ module driver(
 			end
 			default: begin
 				start = 1;
+				iorw_reg = 1;
 				nxt_state = TRANS;
 			end
 		endcase
