@@ -59,7 +59,7 @@ module driver(
 			databus_driver <= databus;
 
 	end
-
+// TODO: iorw set to 1 when driver receives data, vice versa
        always_comb begin
        		//default state
 		trmt = 1'b0;
