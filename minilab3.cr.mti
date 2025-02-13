@@ -1,0 +1,50 @@
+I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module UART_rx
+
+Top level modules:
+	UART_rx
+
+} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv {1 {vlog -work work -vopt -sv -stats=none {I:\win\desktop\ECE554\ECE554SP25_Minilab3\lab1_spart_tb.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module lab1_spart_tb
+
+Top level modules:
+	lab1_spart_tb
+
+} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/spart.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/spart.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module spart
+
+Top level modules:
+	spart
+
+} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module UART_tx
+
+Top level modules:
+	UART_tx
+
+} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/driver.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/driver.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module driver
+
+Top level modules:
+	driver
+
+} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/minilab3.v {1 {vlog -work work -vopt -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/minilab3.v
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module Minilab3
+
+Top level modules:
+	Minilab3
+
+} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/UART.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}}

@@ -34,6 +34,9 @@ module driver(
 	logic rx_rdy;
 	logic [8:0] databus_driver;
 	logic rst_n;
+	logic iorw_reg;
+
+	assign iorw = iorw_reg;
 
 	logic clr_rx_rdy;
 
@@ -50,7 +53,8 @@ module driver(
 		state<= nxt_state;
     end
 
-	assign ioaddr =	trmt ? 2'b00 : 2'b10;
+	assign ioaddr =	trmt ? 2'b00 : 
+	finish ? 2'b10 : 2'b11;
 
 	always_ff @(posedge clk, negedge rst_n) begin
 		if(!rst_n)

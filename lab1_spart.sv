@@ -29,7 +29,7 @@ module lab1_spart(
     input        [9:0]  SW,
 
  //////////// GPIO_0, GPIO_0 connect to GPIO Default //////////
-    inout       [35:0]  GPIO
+    inout     logic  [35:0]  GPIO
 );
 
 wire txd;

@@ -54,7 +54,7 @@ module spart(
     assign rda = rx_rdy;
 
     assign trmt = tbr;
-    assign clr_rx_rdy = 1'b1;
+    assign clr_rx_rdy = ioaddr == 2'b00;
 
     UART uart_bottom( .clk(clk), .rst_n(~rst), .RX(rxd), .TX(txd), 
     .rx_rdy(rx_rdy) , .clr_rx_rdy(clr_rx_rdy), .rx_data(rx_data), 
