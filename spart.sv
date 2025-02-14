@@ -49,10 +49,10 @@ module spart(
 
     assign rst_n = ~rst;
 
-    assign baud_goal = br_cfg == 2'b00 ? 12'd5208 :
-                                  2'b01 ?  12'd2604:
-                                  2'b10 ?  12'd1302 :
-                                  2'b11 ?  12'd651 : 12'd5208;
+    assign baud_goal = br_cfg == 2'b00 ? 12'd10416 :
+                                  2'b01 ?  12'd5208:
+                                  2'b10 ?  12'd2604 :
+                                  2'b11 ?  12'd1302 : 12'd10416;
 
     assign tbr = ioaddr == 2'b00 ? 1'b1 : 1'b0;
     assign rda = rx_rdy;
@@ -67,13 +67,20 @@ module spart(
     // from the processor to the spart
     assign tx_data = (ioaddr == 2'b00)? databus_reg : 8'b0000_0000;
 
-   always_ff @(posedge clk or negedge rst_n) begin
-    if (!rst_n) begin
-        databus_reg <= 8'b0000_0000; // Reset value
-    end else if ((iorw & rda))begin
-        databus_reg <=  rx_data;
+//    always_ff @(posedge clk or negedge rst_n) begin
+//     if (!rst_n) begin
+//         databus_reg <= 8'b0000_0000; // Reset value
+//     end else if ((iorw & rda))begin
+//         databus_reg <=  rx_data;
+//     end
+//     end
+
+    always_comb begin
+    databus_reg = 8'b0000_0000;  // Default value
+    if (rda) begin
+        databus_reg = rx_data;   // Override if rda is asserted
     end
-    end
+end
     
     assign databus = iocs ? databus_reg : 8'bzzzz_zzzz;
 

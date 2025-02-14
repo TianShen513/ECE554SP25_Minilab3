@@ -72,6 +72,7 @@ module driver(
 		clr_rx_rdy = 1'b0;
         finish = 1'b0;
 		start = 1'b0;
+		iorw_reg = 1'b0;
 
 		case(state)
 			TRANS: begin
