@@ -65,22 +65,31 @@ module spart(
     .trmt(trmt), .tx_data(tx_data), .tx_done(tx_done), .baud_goal(baud_goal));
 
     // from the processor to the spart
-    assign tx_data = (ioaddr == 2'b00)? databus_reg : 8'b0000_0000;
+    //assign tx_data = (ioaddr == 2'b00)? databus_reg : 8'b0000_0000;
 
-//    always_ff @(posedge clk or negedge rst_n) begin
-//     if (!rst_n) begin
-//         databus_reg <= 8'b0000_0000; // Reset value
-//     end else if ((iorw & rda))begin
-//         databus_reg <=  rx_data;
-//     end
-//     end
-
-    always_comb begin
-    databus_reg = 8'b0000_0000;  // Default value
-    if (rda) begin
-        databus_reg = rx_data;   // Override if rda is asserted
+   always_ff @(posedge clk or negedge rst_n) begin
+    if (!rst_n) begin
+        tx_data <= 8'b0000_0000; // Reset value
+    end else if (iorw)begin
+        tx_data <=  rx_data;
     end
-end
+    end
+
+//     always_comb begin
+//     databus_reg = 8'b0000_0000;  // Default value
+//     if (rda) begin
+//         databus_reg = rx_data;   // Override if rda is asserted
+//     end
+// end
+
+    always_ff @(posedge clk or negedge rst_n) begin
+
+    if (!rst_n) begin
+        databus_reg <= 8'b0000_0000; // Reset value
+    end else if (rda) begin
+        databus_reg <=  rx_data;
+    end
+    end
     
     assign databus = iocs ? databus_reg : 8'bzzzz_zzzz;
 

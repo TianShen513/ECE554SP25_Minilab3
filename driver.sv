@@ -76,6 +76,7 @@ module driver(
 
 		case(state)
 			TRANS: begin
+				iorw_reg = 1;
 				if(rda) begin
 					trmt = 1'b1;
 					clr_rx_rdy = 1'b1;
