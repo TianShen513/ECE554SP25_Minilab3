@@ -1,12 +1,12 @@
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: UW-Madison
+// Engineer: Tianqi Shen
 // 
 // Create Date:   
 // Design Name: 
 // Module Name:    spart 
-// Project Name: 
-// Target Devices: 
+// Project Name: ECE 554
+// Target Devices: Altera DE1
 // Tool versions: 
 // Description: 
 //
