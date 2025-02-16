@@ -1,7 +1,7 @@
 module UART_tx(
 	input clk, rst_n,		// 50MHz system clock & asynch active low reset
 	input trmt,	
-	input [11:0] baud_goal,			// asserted for 1 clock to initiate transmission
+	input [13:0] baud_goal,			// asserted for 1 clock to initiate transmission
 	input [7:0]tx_data,		// byte to transmit
 	output TX,				// serial data output
 	output logic tx_done	// asserted when byte is done transmitting, and stays high till next byte transmitted.

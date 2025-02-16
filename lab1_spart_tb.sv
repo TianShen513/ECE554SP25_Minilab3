@@ -88,5 +88,5 @@ module lab1_spart_tb;
     end
 
     // Clock generation
-    always #5 clk = ~clk;         // 100MHz clock (10ns period)
+    always #10 clk = ~clk;         // 100MHz clock (10ns period)
 endmodule

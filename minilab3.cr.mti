@@ -1,26 +1,47 @@
-I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module lab1_spart
-
-Top level modules:
-	lab1_spart
-
-} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv
+I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_rx.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module UART_rx
 
 Top level modules:
 	UART_rx
 
-} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module lab1_spart_tb
+} {} {}} C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/lab1_spart.sv {1 {vlog -work work -sv -stats=none C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/lab1_spart.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab1_spart
 
 Top level modules:
-	lab1_spart_tb
+	lab1_spart
 
 } {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART_tx.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module UART_tx
+
+Top level modules:
+	UART_tx
+
+} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module lab1_spart
+
+Top level modules:
+	lab1_spart
+
+} {} {}} C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/driver.sv {1 {vlog -work work -sv -stats=none C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/driver.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module driver
+
+Top level modules:
+	driver
+
+} {} {}} C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/UART_rx.sv {1 {vlog -work work -sv -stats=none C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/UART_rx.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module UART_rx
+
+Top level modules:
+	UART_rx
+
+} {} {}} C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/UART_tx.sv {1 {vlog -work work -sv -stats=none C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/UART_tx.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module UART_tx
 
 Top level modules:
@@ -39,6 +60,34 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	Minilab3
+
+} {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/lab1_spart_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module lab1_spart_tb
+
+Top level modules:
+	lab1_spart_tb
+
+} {} {}} C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/spart.sv {1 {vlog -work work -sv -stats=none C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/spart.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module spart
+
+Top level modules:
+	spart
+
+} {} {}} C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/UART.sv {1 {vlog -work work -sv -stats=none C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/UART.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} C:/Users/diana/Desktop/554/ECE554SP25_Minilab3/lab1_spart_tb.sv {1 {vlog -work work -sv -stats=none {C:\Users\diana\Desktop\554\ECE554SP25_Minilab3\lab1_spart_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab1_spart_tb
+
+Top level modules:
+	lab1_spart_tb
 
 } {} {}} I:/WIN/Desktop/ECE554/ECE554SP25_Minilab3/UART.sv {1 {vlog -work work -vopt -sv -stats=none I:/win/desktop/ECE554/ECE554SP25_Minilab3/UART.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023

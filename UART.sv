@@ -2,7 +2,7 @@ module UART(clk,rst_n,RX,TX,rx_rdy,clr_rx_rdy,rx_data,trmt,tx_data,tx_done, baud
 
 	input clk,rst_n;			// clock and active low reset
 	input RX,trmt;
-	input [11 :0] baud_goal;				// strt_tx tells TX section to transmit tx_data
+	input [13 :0] baud_goal;				// strt_tx tells TX section to transmit tx_data
 	input clr_rx_rdy;			// rx_rdy can be cleared by this or new start bit
 	input [7:0] tx_data;		// byte to transmit
 	output TX,rx_rdy,tx_done;	// rx_rdy asserted when byte received,

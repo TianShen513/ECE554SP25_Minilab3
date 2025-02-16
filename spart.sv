@@ -41,7 +41,7 @@ module spart(
     logic tx_done;
     logic [7:0] databus_reg;
 
-    logic [11:0] baud_goal;
+    logic [13:0] baud_goal;
 
     logic finish;
 
@@ -49,10 +49,10 @@ module spart(
 
     assign rst_n = ~rst;
 
-    assign baud_goal = br_cfg == 2'b00 ? 12'd10416 :
-                                  2'b01 ?  12'd5208:
-                                  2'b10 ?  12'd2604 :
-                                  2'b11 ?  12'd1302 : 12'd10416;
+ assign baud_goal = (br_cfg == 2'b00) ? 14'd10416 :
+                   (br_cfg == 2'b01) ? 14'd5208  :
+                   (br_cfg == 2'b10) ? 14'd2604  :
+                   (br_cfg == 2'b11) ? 14'd1302  : 14'd10416;
 
     assign tbr = ioaddr == 2'b00 ? 1'b1 : 1'b0;
     assign rda = rx_rdy;

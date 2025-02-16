@@ -1,7 +1,7 @@
 module UART_rx(
 	input clk, rst_n,		// 50MHz system clock & asynch active low reset
 	input RX,
-	input [11 : 0] baud_goal,				// serial data input
+	input [13 : 0] baud_goal,				// serial data input
 	input clr_rdy,			// knocks down rdy when asserted
 	output [7:0]rx_data,	// byte received
 	output logic rdy		// asserted when byte received, and stays high till start bit of next byth starts or until clr_rdy asserted

@@ -29,7 +29,8 @@ module lab1_spart(
     input    logic    [9:0]  SW,
 
  //////////// GPIO_0, GPIO_0 connect to GPIO Default //////////
-    inout  logic    [35:0]  GPIO
+    //inout  logic    [35:0]  GPIO
+    input  logic    [35:0]  GPIO
 );
    
 wire txd;
@@ -51,7 +52,7 @@ wire rst = ~KEY[0];
 assign LEDR = {~rxd,~txd,7'b0,rst};
 
 // GPIO[3] as TX output, GPIO[5] as RX input
-assign GPIO[3] = txd;
+//assign GPIO[3] = txd;
 assign rxd = GPIO[5];
 
 // slide switch [9:8] as baudrate config
